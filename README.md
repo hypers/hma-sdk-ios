@@ -22,7 +22,7 @@ pod 'HypersMobileAnalyticsSDK'
 
 ## Author
 
-soul_chaoyue@163.com, huiwei.ye@mail.hypers.com
+Hypers
 
 ## License
 
