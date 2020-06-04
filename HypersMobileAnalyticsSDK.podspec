@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.hypers.com/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'HMT' => '' }
+  s.author           = { 'HMT' => 'hypers' }
   s.source           = { :git => 'https://github.com/moluwentu/hma-sdk-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
