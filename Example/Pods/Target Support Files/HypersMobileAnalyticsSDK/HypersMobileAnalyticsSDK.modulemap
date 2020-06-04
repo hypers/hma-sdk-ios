@@ -1,0 +1,6 @@
+framework module HypersMobileAnalyticsSDK {
+  umbrella header "HypersMobileAnalyticsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
