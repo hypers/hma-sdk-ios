@@ -1,0 +1,1 @@
+../../../../../HypersMobileAnalyticsSDK/Classes/HMTAgentSDK.h

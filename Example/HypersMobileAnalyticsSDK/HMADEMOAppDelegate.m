@@ -7,12 +7,14 @@
 //
 
 #import "HMADEMOAppDelegate.h"
+#import <HMTAgentSDK.h>
 
 @implementation HMADEMOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [HMTAgentSDK initWithAppKey:@"123456" channel:@"APPLE STORE"];
     return YES;
 }
 

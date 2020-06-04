@@ -6,10 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F73A1BD0FE7C59024BCD97E6AE48E96B /* HypersMobileAnalyticsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06E898CA3B32A140A650AAE48E34E3EE /* Build configuration list for PBXAggregateTarget "HypersMobileAnalyticsSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = HypersMobileAnalyticsSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D751F0FE311D6E3A04E42DD62F0946C /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE87F7213E48CFE9B4B41448280C281 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03D6C7DC01BD8F331D0930EF0AF1FB9B /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C41F18A6B4DEA70D5F070462C42C01 /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m */; };
+		03D6C7DC01BD8F331D0930EF0AF1FB9B /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F9ED014C8DF7651BD2AD9384A56D4C /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m */; };
 		05BCAED08DADF67CC4711A102262D9AB /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25FB2E5FBD06F6A7AC775593C12517 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05CFF6618B87EDE2069D4C5D3DDFF9EB /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D3545A01262C6D92DF5D83E71971DF /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		08610BEB632F2CD110079551EF432E8E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A7607745AAE8CBDAC36E7E1E1C7108 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -41,7 +53,7 @@
 		3372164C22B301D4D5F1C9C7C6DDB25D /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E643A2B63CA5BC22F96491ADA4108 /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		34ADEF3BDFFDBC22229C55EB4A5E27A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */; };
 		3681AC7A2C3E52B5F6514D1560E13191 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 23632E041D2B0D2C9EA7A79FE28AAA51 /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36AF48AF91467D4F41B932D6B99FF357 /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E6118E7C32CC20913BD02CECD1B5E1 /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36AF48AF91467D4F41B932D6B99FF357 /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C0E17851E6E584A3961E53C695B53F /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A289C0550F25C9EDBF6A54BABC5A18 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FA6D557A9C3E538CA3D357176CD434 /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39FB43C4884933D004F615F37EF37BF4 /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C55CDFBB5E7EC2757FD3661C53214A47 /* SPTSpec.m */; };
 		39FF68F85E738AC76F427D6FAFF9DEF7 /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BEB660D20F2DBECD7A04C393C603A4 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -80,14 +92,13 @@
 		6B575D5C03624D5A253D6C128F3768DC /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D41974EB467839557D216FF65F0FED /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DFA2A4ECED1F7E0310AB654FFBD2445 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B521014FCFD00FB0B45F815E5B0B1BA /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E8A45EF6CD46D90A634E1E9163E562E /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E4F07236DB842702419DDA25855C6 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6EAF8F6EA533F92ADF148EB231E57559 /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC47BD772D9B31BFF338348A5D560C /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m */; };
+		6EAF8F6EA533F92ADF148EB231E57559 /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7957D94DDFD23CDEED2B59B1D18A774A /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m */; };
 		70E91290A2C36004BB7177FE09A902A5 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B785871406A850B0A1E5ACC0D46F00 /* XCTestCase+Specta.m */; };
 		7709CF64039955B3BAF42CDA38E0F96F /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB53AA433A01014DA105EFCF5D5EEDA /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		777DB2CAF42F78F06C61F9A4AA3AD09C /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B7C836D64457C8BC882D338F4E79E5 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C4C85F0C8EDAEF021BC526B0B993E7 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 8182EF5766A555C2358C4836F342C49C /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7967AB2E31F5D064244EB23735D0B3E8 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B72C72E36DD0F7A361119C6A3ADEAFD5 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7A6DD687A80CF29C06CC8E9E53AC94BD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E386E91A8252E7E0FD3C63CCC521 /* UIImage+Snapshot.m */; };
-		7C35058EB98695B8A6C8C0D380F6A825 /* HypersMobileAnalyticsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBC362353ADE3DF74B97F4B42821295 /* HypersMobileAnalyticsSDK-dummy.m */; };
 		7E17C2B7C2A0FB6BE9F797C0701848B6 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5D806DA25F158417B1DB9A3D4D752 /* FBSnapshotTestCasePlatform.m */; };
 		7E571804E4D35B42499B8BA3E59A9AA0 /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EDECAAC618CF03CB116A38282EB972B1 /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		821F025A006CB157497E83C0EC102052 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD6BF42F46FC94FDB5AD2C7B2BDF43E /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,7 +111,6 @@
 		9197B1917CC94F46B7ECF956F9E42AAC /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C252CFD04DC17AD0504AABDBB46ECB5 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F08081D0286CC0733C2D5A9B4A8F32 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D462091B0B297DA65FD3F10937EFB1A /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9501262D83639D5412AC3A86F528B63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */; };
-		95419BCD9B30337511C3EAD444260B6B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A77C77BC57F2FCE6979D27960D201D /* ReplaceMe.m */; };
 		96BC54118F99CACBCEDE0B64784E0737 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD127923D81FCC10FA3EC547194B7 /* Expecta-dummy.m */; };
 		96D66D58D29B61E0626A78A6C62B0A1D /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A29238FAD1F0001AEC71F6750C425B /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97D9A825385A35B046B1DFF01F24136F /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 019A89DA7820B809D45D2D192CD027E5 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,7 +118,7 @@
 		98DA7D76AAA35F696F5F8BE40CE45D57 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6111F071CD75E6A47B379243C38F59CC /* FBSnapshotTestCase.m */; };
 		9A971E20882E663DE2881FA15F62C552 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 395D13771C26CA6F033F287E5A483C1F /* SPTSharedExampleGroups.m */; };
 		9AC1A3902FC9162C9B432B411928B215 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E211486FA028D3EB7AF012E4C31E4BFE /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9AE65B94547CD38331445BA1E51B1F65 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B38664516EF3C71B72D42F5FA609227 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE65B94547CD38331445BA1E51B1F65 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E79C3185F49B3CDB7A9F439A8340B3 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FA92269C76E56CD70FB8C0AB47AD16D /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0245DF7148A7072C0E79CF80FA8DB43 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FB558C12CC98F95A448699D80E54CA /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC605582B51A6F35AA5FB8F3DA20E99 /* SwiftSupport.swift */; };
 		A6A49734BE2CA7A10109D9A0F6E79AAA /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F26604AD4A38EF911B54B74ECABFC5 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -129,7 +139,6 @@
 		C21852EA0F5BED0F4235D5F8E976FA09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E6C93517623437094A8833BD247A5 /* XCTest.framework */; };
 		C431F4A8098F3F8FEED02C58EB2704E8 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = B27768910D2C1161F4A5C8536DA18BEE /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4632B64DD0F3ADB3BB829A6EBC322E6 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1004F3B0D7B836E2BE433BDE8AAEA723 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C55929D3F898852A2405D905376F0E5D /* HypersMobileAnalyticsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 496B1439F85BF9F397B22F1B0E9A395F /* HypersMobileAnalyticsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA004C816B835986CB7FD1AF44E0DFD1 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC1594F0D2374E5BA180A52DA57710C /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA17B8E5FFF13F7681D42AF5D6F1F1B0 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9FA53099A1DDA106AAF2A4E7053ABE /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAEE0E44BC37459BD49C0B1D626B0477 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC5881C4C1CE00283750026BB52345F /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -153,7 +162,6 @@
 		F3EDE6D241EE2A6D0992A24ACDDBAB35 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C434CE614C6FF519706E65A461EDED /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4591B9C7F70268A3F94B40ADDBA5202 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C85A65EBD9C9A4A02643D8F36CC6F7 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4F8BAEA1C2B92CD3CE72DA5019E3D6E /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0FF38A317BE32E8ADBEDF6ECCFFD7D /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA13C86C097F1DB96048A445A5E1BBE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */; };
 		FBC9734FF84807AE5347B2196D7EBC6D /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A583A28600B6024E142CEE3AC34642 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -228,23 +236,19 @@
 		01B785871406A850B0A1E5ACC0D46F00 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		037F5CF6DD82B4B454527CB4C0B46851 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09A18D2A7CA65E9BD31B9E57E620A2D8 /* Pods-HypersMobileAnalyticsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HypersMobileAnalyticsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0A69F04C775F2FB7A750329128089BFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0B38664516EF3C71B72D42F5FA609227 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0BF4C9FFB0A78AC6EDF88B9D1F647C94 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		0DD6FF7766CC0E6A8CC6E4C5FF10CC21 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1004F3B0D7B836E2BE433BDE8AAEA723 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		108488F285A773A3BCE052B9350CD6CD /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
-		1108372E97659BFD5B06D2EB5F60D5F6 /* HypersMobileAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HypersMobileAnalyticsSDK.release.xcconfig; sourceTree = "<group>"; };
 		11C434CE614C6FF519706E65A461EDED /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15BCED1EDB2E89364F8A58CE238A8130 /* Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		163E643A2B63CA5BC22F96491ADA4108 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		168F2EE5C1B31D8C40138277F65FE1AB /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		174709D9B6F02218DE554547920C87F8 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		1777B70242B4B8026431EAFA590292B0 /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
+		17CB89BC84BDEC30EA5F1C283815182F /* Pods-HypersMobileAnalyticsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		182F5C9F5A5929812A81785C2BEA729E /* Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1AAF21BD02AEB538FFA5DAD220ED7E3F /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
-		1B3173E3636EE2F0A6FEE6FDFEC6CAA9 /* Pods-HypersMobileAnalyticsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HypersMobileAnalyticsSDK_Example.modulemap"; sourceTree = "<group>"; };
 		1C252CFD04DC17AD0504AABDBB46ECB5 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		1CEE8605EE76326162BB0A82851184BC /* Expecta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.debug.xcconfig; sourceTree = "<group>"; };
 		1DB53AA433A01014DA105EFCF5D5EEDA /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
@@ -255,20 +259,17 @@
 		220A0E011AFFDA3021348B51AF9B5116 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		2291A8EC5593038EAD6122C7DB6BF576 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		22A1C48B4355B989CFB716FE0492FF4E /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
-		22D349CEFD72652AFD732B6447BCFACF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		23632E041D2B0D2C9EA7A79FE28AAA51 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		24A29238FAD1F0001AEC71F6750C425B /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
-		255066169DE13296F9DEB7B7A5A0B154 /* Pods-HypersMobileAnalyticsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HypersMobileAnalyticsSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		2567178B0ABBEB28AA767A839F7320DB /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
-		26222059BF1C2CCDA9D075D5D768B18D /* Pods-HypersMobileAnalyticsSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HypersMobileAnalyticsSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		26E6118E7C32CC20913BD02CECD1B5E1 /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HypersMobileAnalyticsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		29C1E2E20A714678635E90E0295083E8 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		2D97D71DC32150CF11A74F56E3B92AF3 /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		2F42071713F678B23AD3B97F57C7C1C7 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		2FCB589DC8253A7CC52B48C5CFC400EA /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		30A583A28600B6024E142CEE3AC34642 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
+		30D9D8021059F693E45E4B80A5FE2B66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		31D4D0D7CF522E0947A8A25DA7FF8951 /* Pods-HypersMobileAnalyticsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		32D3545A01262C6D92DF5D83E71971DF /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
-		37199D8F6314F65668A0FE33FB12C6AB /* HypersMobileAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HypersMobileAnalyticsSDK.framework; path = HypersMobileAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		373732A9C739AA9A65AD168D7988901D /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		37EF16E017F7EF88AAC9B3A4F3523388 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		38720083382F2C125695F1626B7EC020 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
@@ -283,51 +284,50 @@
 		4214A3373F44E1F00311FAE0F18DA423 /* Expecta+Snapshots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.debug.xcconfig"; sourceTree = "<group>"; };
 		4395BCC8DF29BC2DA1BD8A74CC645618 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		43C85A65EBD9C9A4A02643D8F36CC6F7 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
+		4611E142D4461B101140D7C2AE53206A /* HypersMobileAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HypersMobileAnalyticsSDK.release.xcconfig; sourceTree = "<group>"; };
 		46F26604AD4A38EF911B54B74ECABFC5 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		47A46A19691546953C5903961C3E1388 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B8691970DF71E7128EF551E8B60B1D /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		47B8DD78259BED4CFAF0B52086B1EE41 /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
-		47C83CB9BF3233B9A2857738342197F5 /* Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		481315A3D95579C25EB11E884CE65AD5 /* HypersMobileAnalyticsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HypersMobileAnalyticsSDK.modulemap; sourceTree = "<group>"; };
+		47C0E17851E6E584A3961E53C695B53F /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HypersMobileAnalyticsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		48B7C836D64457C8BC882D338F4E79E5 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
-		496B1439F85BF9F397B22F1B0E9A395F /* HypersMobileAnalyticsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HypersMobileAnalyticsSDK-umbrella.h"; sourceTree = "<group>"; };
 		4A330379CAB29C00FEA5BBD48341C045 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D751F0FE311D6E3A04E42DD62F0946C /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
-		4F4511153AD5347167A1148E8D07DC4F /* HypersMobileAnalyticsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HypersMobileAnalyticsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5074EC900FA1FC3F97E4887EA75FE114 /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
-		50A77C77BC57F2FCE6979D27960D201D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HypersMobileAnalyticsSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		511C46E784B9996D7B2F64848F053C7E /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		5433A8053B6A7B7F3D5603F3B0E18438 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		57F68C105A7F50D2190D604BCE443BE7 /* HypersMobileAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HypersMobileAnalyticsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		57E79C3185F49B3CDB7A9F439A8340B3 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		587824262CA4D103C60B03629B19F525 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		59A0A37A02735D77CBA0BBD9D6BC9A12 /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		5AC605582B51A6F35AA5FB8F3DA20E99 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		5B587F705BFFCCBD0E65FA3DAF35FA1D /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
+		5B7EB83E51D8E20C735400C736DC0B32 /* Pods-HypersMobileAnalyticsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HypersMobileAnalyticsSDK_Example.modulemap"; sourceTree = "<group>"; };
+		5C01592839FE4B452AC78F3BDB4CDC86 /* Pods-HypersMobileAnalyticsSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HypersMobileAnalyticsSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3775741B1E1FF31F13FCA7C0CD488B /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
+		60AE9E1952EE8E59135E4799AF86878B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6111F071CD75E6A47B379243C38F59CC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		63E2E386E91A8252E7E0FD3C63CCC521 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		6867F62D06A185737C966370974491E5 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F11FEE558B5B0DAA7277EB1FAF6F4 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		6B145BBA4F94616C1D8E9D363373601A /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		6B9FA53099A1DDA106AAF2A4E7053ABE /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
-		6BF7512E7E6BBC244E72E8E0D5F9B7CD /* HypersMobileAnalyticsSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HypersMobileAnalyticsSDK-prefix.pch"; sourceTree = "<group>"; };
-		6CBB6E63D47CAD6C1FFA1EEA823518E7 /* HypersMobileAnalyticsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HypersMobileAnalyticsSDK-Info.plist"; sourceTree = "<group>"; };
 		6EE87F7213E48CFE9B4B41448280C281 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		6F8DD5EECCB60C0E08BD32324A8E8649 /* Expecta+Snapshots-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta+Snapshots-Info.plist"; sourceTree = "<group>"; };
 		6FCDD127923D81FCC10FA3EC547194B7 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
-		73851E3583FDE246C8948F2B8B618CB0 /* Pods-HypersMobileAnalyticsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		739612B6E93EF57A0C21F9FE5FF21B91 /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73FC47BD772D9B31BFF338348A5D560C /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HypersMobileAnalyticsSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		7495229ED326CAFE4282BE02C761C070 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		77F788FE00F7A604ED357B9D966B94A8 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
+		7957D94DDFD23CDEED2B59B1D18A774A /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HypersMobileAnalyticsSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		7AB65B36803C06E3FCE87BE4E9030529 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		7B673AF948331D276A91FD8111F4DCF1 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		7C25FB2E5FBD06F6A7AC775593C12517 /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
+		7F575AAF6058D53A9DB28109BD5C4F9C /* HMTAgentSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMTAgentSDK.h; path = HypersMobileAnalyticsSDK/Classes/HMTAgentSDK.h; sourceTree = "<group>"; };
 		80BA67F9000394F8A87482C9604AF43C /* Expecta+Snapshots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.release.xcconfig"; sourceTree = "<group>"; };
 		80CAAE325A74FE5DA7E710191BC2F53B /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		8182EF5766A555C2358C4836F342C49C /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
+		82FC919108A7350C0F47EE096ABED547 /* Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83A7607745AAE8CBDAC36E7E1E1C7108 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		83ECABAA070B406FE03500337CCC0136 /* HypersMobileAnalyticsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HypersMobileAnalyticsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		844E3A0A31E744A3756CBD5E91ECC3DD /* Specta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Specta-Info.plist"; sourceTree = "<group>"; };
 		845CB33B040BF7AC02F61EB3E1DF7C44 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		8571C50A479E6AD3DDAF259F00A0F942 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -337,7 +337,6 @@
 		877834322FA508FA93591923AE248986 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		8794D436AF7CD02C352F33E8756DA6AA /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		8936C7A225FA6637A65642D5E63D94EF /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
-		89A675474CA5A7054F59BC65B4743815 /* Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A90E86082A6B8E5EDE6EA22FD21EB73 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		8AEEAD0DA889C257A0A105B8A594D0BE /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -349,14 +348,14 @@
 		932012295DBE9940094FF147CF412A27 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		9392407C48D3EE80025186936C70627F /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		9441A311708D639B846E38C432211FAF /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
-		94ACD4062AF32BFFD3C246B1F3B302AE /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		963933CA29BD6822FEF95E44425F9D00 /* libHmtAgentLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHmtAgentLib.a; path = HypersMobileAnalyticsSDK/Lib/libHmtAgentLib.a; sourceTree = "<group>"; };
+		966B01FF16741CF75CEACA2C2574F0DE /* Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9685F6F1DB9CF1394BD80F9DC81C6F38 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		9BE5D806DA25F158417B1DB9A3D4D752 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		9C8E025E552CC9C4413A786201D3241A /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DBC362353ADE3DF74B97F4B42821295 /* HypersMobileAnalyticsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HypersMobileAnalyticsSDK-dummy.m"; sourceTree = "<group>"; };
 		9E0394BEA7DB87C6313E024C3574B0BD /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		9E9CE2D7E09295A7E3FFD513DC7BF589 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
+		A047233A725F36B36AD8A159106AA29D /* Pods-HypersMobileAnalyticsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HypersMobileAnalyticsSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		A1FA6D557A9C3E538CA3D357176CD434 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
 		A3BEB660D20F2DBECD7A04C393C603A4 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		A442557684FED223F2CAD13967A4714E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -364,6 +363,7 @@
 		A4D512482494319EFC2321363FA04040 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		A598027CD01655638D7ECD3FC6B311F8 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		A5A80F86945A31D125D731C058878E6F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		AC31859BDE7901EA6A8760015FE9D8E6 /* Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AC81CDCDA674C72343F33170829E3264 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		ACF27369267FC1FE4138662A11DF8F47 /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
 		ADB8A0F0B2B83940D30D63AF2BDBA119 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
@@ -380,16 +380,16 @@
 		C4230741943C64927EC644AF561F2F4C /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
 		C4D9E506424CA1615456597BFFC36A61 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		C4FF0CB39520C993BA997D267A86A733 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
-		C514A40C6C8B677381F3915B89F8C9D4 /* Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C55CDFBB5E7EC2757FD3661C53214A47 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		C7D149F19268987F119A11C546B7EFE0 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
+		CB5A8C589A1EA09B5FFCABF523C2B41B /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB0AA05F69F82B5C626D6D3D17ED704 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		CBF013EE264D088C0697458EC1BA0379 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		CC0FF38A317BE32E8ADBEDF6ECCFFD7D /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		CCCB049602D2A748655EAABB320F1574 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		CCF75EC5B1F56E3EFE66CC368FBB703A /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		CF2696A7AE1A69AC012F9A6ABBF9FD3F /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		D4419090C555C943EB988E61225C6B99 /* Pods-HypersMobileAnalyticsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		D3F9ED014C8DF7651BD2AD9384A56D4C /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HypersMobileAnalyticsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		D84312C9F751F547808B90B3471A69B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		DC0C329E0C2B9EC458C20A17D1E8A134 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		DC28FE68C592231935910CDC0C2334F1 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
@@ -399,18 +399,20 @@
 		E19D7F91877074DF27F99640EC532352 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		E211486FA028D3EB7AF012E4C31E4BFE /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
 		E224127079617AF4A8E6130FD9E4BACC /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
-		E7C41F18A6B4DEA70D5F070462C42C01 /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HypersMobileAnalyticsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		E667ABC42EF62D4F65BEF7CF0D5B34E6 /* HypersMobileAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HypersMobileAnalyticsSDK.debug.xcconfig; sourceTree = "<group>"; };
 		EAB4F78153E405E98AC8BACFDA514D7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EC323D63B5318F092C04883622073F5F /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
 		EDECAAC618CF03CB116A38282EB972B1 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
+		EF7105C02F2814ECA9EB0031943C463A /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F0245DF7148A7072C0E79CF80FA8DB43 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		F094E0D0E122398BEE05F02377D96CC1 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
+		F155532F9E0FC8C7FC3A628CA9A697F0 /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F2562E42CC03567292CE055CC33D5EA5 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		F323BE9CCBD74D21580F57285BADF0E8 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		F43A2D90FC5B1BDA79F155B94C2461CF /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		F5AA174C1A47FC63164B05CDA045A232 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		F6629A348F2D624BBEA7340892C20F32 /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F79CAB0765C4FFD53DB9E44387201CD2 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
+		F81A4D8D5741B80177FDB1D92EEAE0EE /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FAD6FA6975DE20DF75B79016736BBD0F /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		FE3B99A930243614FF775C81C70B2FA3 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -425,14 +427,6 @@
 				B3456664FB823F246FC18A8A1DCE6753 /* Foundation.framework in Frameworks */,
 				5093DB83B8DB2F19FCC5964622F17C8E /* Specta.framework in Frameworks */,
 				4C3BDCE083DC626A8C8757BBB1A03ADE /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20DDEA546C5B286AC666D10DD7EC5CBD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA13C86C097F1DB96048A445A5E1BBE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,23 +528,6 @@
 			path = "../Target Support Files/Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		1323E3C89B9D47D33F5E52347E553F54 /* Pods-HypersMobileAnalyticsSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1B3173E3636EE2F0A6FEE6FDFEC6CAA9 /* Pods-HypersMobileAnalyticsSDK_Example.modulemap */,
-				94ACD4062AF32BFFD3C246B1F3B302AE /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.markdown */,
-				9C8E025E552CC9C4413A786201D3241A /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.plist */,
-				73FC47BD772D9B31BFF338348A5D560C /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m */,
-				09A18D2A7CA65E9BD31B9E57E620A2D8 /* Pods-HypersMobileAnalyticsSDK_Example-frameworks.sh */,
-				D4419090C555C943EB988E61225C6B99 /* Pods-HypersMobileAnalyticsSDK_Example-Info.plist */,
-				26E6118E7C32CC20913BD02CECD1B5E1 /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h */,
-				15BCED1EDB2E89364F8A58CE238A8130 /* Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig */,
-				C514A40C6C8B677381F3915B89F8C9D4 /* Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-HypersMobileAnalyticsSDK_Example";
-			path = "Target Support Files/Pods-HypersMobileAnalyticsSDK_Example";
-			sourceTree = "<group>";
-		};
 		16CEEA9C25CB9D5C4DA7ECDC3F08DD64 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -602,29 +579,47 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		469F7E55417FFE89DE280083926D8D88 /* Products */ = {
+		56884C2219F64ABA6502CCD04EC7C530 /* Pods-HypersMobileAnalyticsSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */,
-				20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */,
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				37199D8F6314F65668A0FE33FB12C6AB /* HypersMobileAnalyticsSDK.framework */,
-				8E86011A01999C7FA5550DCB185A1109 /* Pods_HypersMobileAnalyticsSDK_Example.framework */,
-				B4A49A66A9B42762EB4685616FDE0CB5 /* Pods_HypersMobileAnalyticsSDK_Tests.framework */,
-				15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */,
+				5B7EB83E51D8E20C735400C736DC0B32 /* Pods-HypersMobileAnalyticsSDK_Example.modulemap */,
+				F155532F9E0FC8C7FC3A628CA9A697F0 /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.markdown */,
+				F81A4D8D5741B80177FDB1D92EEAE0EE /* Pods-HypersMobileAnalyticsSDK_Example-acknowledgements.plist */,
+				7957D94DDFD23CDEED2B59B1D18A774A /* Pods-HypersMobileAnalyticsSDK_Example-dummy.m */,
+				17CB89BC84BDEC30EA5F1C283815182F /* Pods-HypersMobileAnalyticsSDK_Example-Info.plist */,
+				47C0E17851E6E584A3961E53C695B53F /* Pods-HypersMobileAnalyticsSDK_Example-umbrella.h */,
+				82FC919108A7350C0F47EE096ABED547 /* Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig */,
+				AC31859BDE7901EA6A8760015FE9D8E6 /* Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-HypersMobileAnalyticsSDK_Example";
+			path = "Target Support Files/Pods-HypersMobileAnalyticsSDK_Example";
 			sourceTree = "<group>";
 		};
-		4AC108E13D162CA81B0CA0A4540BAC4D /* HypersMobileAnalyticsSDK */ = {
+		68354AAF6655A2D949E29615E74F1DB6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				50A77C77BC57F2FCE6979D27960D201D /* ReplaceMe.m */,
-				F98F77B0AEE2DF55F1218B6EE6E94E94 /* Pod */,
-				B765654F19D504CD6D1BD62720D0A940 /* Support Files */,
+				83ECABAA070B406FE03500337CCC0136 /* HypersMobileAnalyticsSDK.podspec */,
+				60AE9E1952EE8E59135E4799AF86878B /* LICENSE */,
+				30D9D8021059F693E45E4B80A5FE2B66 /* README.md */,
 			);
-			name = HypersMobileAnalyticsSDK;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C9002EAF68E25F218A67A90011A0195 /* Pods-HypersMobileAnalyticsSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A047233A725F36B36AD8A159106AA29D /* Pods-HypersMobileAnalyticsSDK_Tests.modulemap */,
+				CB5A8C589A1EA09B5FFCABF523C2B41B /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.markdown */,
+				EF7105C02F2814ECA9EB0031943C463A /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.plist */,
+				D3F9ED014C8DF7651BD2AD9384A56D4C /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m */,
+				5C01592839FE4B452AC78F3BDB4CDC86 /* Pods-HypersMobileAnalyticsSDK_Tests-frameworks.sh */,
+				31D4D0D7CF522E0947A8A25DA7FF8951 /* Pods-HypersMobileAnalyticsSDK_Tests-Info.plist */,
+				57E79C3185F49B3CDB7A9F439A8340B3 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h */,
+				182F5C9F5A5929812A81785C2BEA729E /* Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig */,
+				966B01FF16741CF75CEACA2C2574F0DE /* Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-HypersMobileAnalyticsSDK_Tests";
+			path = "Target Support Files/Pods-HypersMobileAnalyticsSDK_Tests";
 			sourceTree = "<group>";
 		};
 		6E74B7A54413FA8EBBA0E586FA16CEF6 /* Expecta */ = {
@@ -720,21 +715,17 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		8F675BF77CE5524F1081F0127BB3AE30 /* Pods-HypersMobileAnalyticsSDK_Tests */ = {
+		92E97466C0DCC6AC2A7C73E28BD05A25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				255066169DE13296F9DEB7B7A5A0B154 /* Pods-HypersMobileAnalyticsSDK_Tests.modulemap */,
-				739612B6E93EF57A0C21F9FE5FF21B91 /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.markdown */,
-				F6629A348F2D624BBEA7340892C20F32 /* Pods-HypersMobileAnalyticsSDK_Tests-acknowledgements.plist */,
-				E7C41F18A6B4DEA70D5F070462C42C01 /* Pods-HypersMobileAnalyticsSDK_Tests-dummy.m */,
-				26222059BF1C2CCDA9D075D5D768B18D /* Pods-HypersMobileAnalyticsSDK_Tests-frameworks.sh */,
-				73851E3583FDE246C8948F2B8B618CB0 /* Pods-HypersMobileAnalyticsSDK_Tests-Info.plist */,
-				0B38664516EF3C71B72D42F5FA609227 /* Pods-HypersMobileAnalyticsSDK_Tests-umbrella.h */,
-				47C83CB9BF3233B9A2857738342197F5 /* Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig */,
-				89A675474CA5A7054F59BC65B4743815 /* Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig */,
+				08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */,
+				20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				8E86011A01999C7FA5550DCB185A1109 /* Pods_HypersMobileAnalyticsSDK_Example.framework */,
+				B4A49A66A9B42762EB4685616FDE0CB5 /* Pods_HypersMobileAnalyticsSDK_Tests.framework */,
+				15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */,
 			);
-			name = "Pods-HypersMobileAnalyticsSDK_Tests";
-			path = "Target Support Files/Pods-HypersMobileAnalyticsSDK_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		967927617DE02159D772BE6ED4417449 /* Specta */ = {
@@ -771,6 +762,27 @@
 			path = Specta;
 			sourceTree = "<group>";
 		};
+		A2B67EB0539DB79D754972E59B5ED928 /* HypersMobileAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7F575AAF6058D53A9DB28109BD5C4F9C /* HMTAgentSDK.h */,
+				F3C53F2BDDA35A6BC75099C8C85AD644 /* Frameworks */,
+				68354AAF6655A2D949E29615E74F1DB6 /* Pod */,
+				E8F1E4FA0C908D9ABE27734A372AF98E /* Support Files */,
+			);
+			name = HypersMobileAnalyticsSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AC4F09B1EEA53A49DDA52C4C556E4B25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56884C2219F64ABA6502CCD04EC7C530 /* Pods-HypersMobileAnalyticsSDK_Example */,
+				6C9002EAF68E25F218A67A90011A0195 /* Pods-HypersMobileAnalyticsSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		B5B89E42258BE32A66C75CB2AB3C6E1D /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -779,48 +791,34 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		B765654F19D504CD6D1BD62720D0A940 /* Support Files */ = {
+		C8BF6373E57EE0C9F239CA1435471F64 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				481315A3D95579C25EB11E884CE65AD5 /* HypersMobileAnalyticsSDK.modulemap */,
-				9DBC362353ADE3DF74B97F4B42821295 /* HypersMobileAnalyticsSDK-dummy.m */,
-				6CBB6E63D47CAD6C1FFA1EEA823518E7 /* HypersMobileAnalyticsSDK-Info.plist */,
-				6BF7512E7E6BBC244E72E8E0D5F9B7CD /* HypersMobileAnalyticsSDK-prefix.pch */,
-				496B1439F85BF9F397B22F1B0E9A395F /* HypersMobileAnalyticsSDK-umbrella.h */,
-				57F68C105A7F50D2190D604BCE443BE7 /* HypersMobileAnalyticsSDK.debug.xcconfig */,
-				1108372E97659BFD5B06D2EB5F60D5F6 /* HypersMobileAnalyticsSDK.release.xcconfig */,
+				A2B67EB0539DB79D754972E59B5ED928 /* HypersMobileAnalyticsSDK */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HypersMobileAnalyticsSDK";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DE022979015DF72D4589A79839D01976 /* Development Pods */,
+				C8BF6373E57EE0C9F239CA1435471F64 /* Development Pods */,
 				030DB05C81A99094FF0898DC6A5E0110 /* Frameworks */,
 				00F99F44C4FE3889C33D6FB22A9515F3 /* Pods */,
-				469F7E55417FFE89DE280083926D8D88 /* Products */,
-				CF6C869E98083055CC312B0F652F3B4D /* Targets Support Files */,
+				92E97466C0DCC6AC2A7C73E28BD05A25 /* Products */,
+				AC4F09B1EEA53A49DDA52C4C556E4B25 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF6C869E98083055CC312B0F652F3B4D /* Targets Support Files */ = {
+		E8F1E4FA0C908D9ABE27734A372AF98E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1323E3C89B9D47D33F5E52347E553F54 /* Pods-HypersMobileAnalyticsSDK_Example */,
-				8F675BF77CE5524F1081F0127BB3AE30 /* Pods-HypersMobileAnalyticsSDK_Tests */,
+				E667ABC42EF62D4F65BEF7CF0D5B34E6 /* HypersMobileAnalyticsSDK.debug.xcconfig */,
+				4611E142D4461B101140D7C2AE53206A /* HypersMobileAnalyticsSDK.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DE022979015DF72D4589A79839D01976 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4AC108E13D162CA81B0CA0A4540BAC4D /* HypersMobileAnalyticsSDK */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HypersMobileAnalyticsSDK";
 			sourceTree = "<group>";
 		};
 		EDF94A854F663CB1C1BD5D341ECA38C6 /* iOS */ = {
@@ -849,27 +847,17 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		F98F77B0AEE2DF55F1218B6EE6E94E94 /* Pod */ = {
+		F3C53F2BDDA35A6BC75099C8C85AD644 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4F4511153AD5347167A1148E8D07DC4F /* HypersMobileAnalyticsSDK.podspec */,
-				22D349CEFD72652AFD732B6447BCFACF /* LICENSE */,
-				0A69F04C775F2FB7A750329128089BFF /* README.md */,
+				963933CA29BD6822FEF95E44425F9D00 /* libHmtAgentLib.a */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29E4D4DC0F340B457A4F6B884DBC253F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C55929D3F898852A2405D905376F0E5D /* HypersMobileAnalyticsSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3377857052A44DE9B687D98E337DFA33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1060,24 +1048,6 @@
 			productReference = 08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F73A1BD0FE7C59024BCD97E6AE48E96B /* HypersMobileAnalyticsSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4848DF47681010BB55B78BC2E5680A65 /* Build configuration list for PBXNativeTarget "HypersMobileAnalyticsSDK" */;
-			buildPhases = (
-				29E4D4DC0F340B457A4F6B884DBC253F /* Headers */,
-				832312AF6915ABE653F472CFE390A0D8 /* Sources */,
-				20DDEA546C5B286AC666D10DD7EC5CBD /* Frameworks */,
-				E5C2E721322C6B3E7E0A6AD5D358A89D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HypersMobileAnalyticsSDK;
-			productName = HypersMobileAnalyticsSDK;
-			productReference = 37199D8F6314F65668A0FE33FB12C6AB /* HypersMobileAnalyticsSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		F8676010755CF1530FC02DA9A0D8822B /* Specta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6A7FA4B4AC02DDFDE08B676476761AE /* Build configuration list for PBXNativeTarget "Specta" */;
@@ -1137,7 +1107,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 469F7E55417FFE89DE280083926D8D88 /* Products */;
+			productRefGroup = 92E97466C0DCC6AC2A7C73E28BD05A25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1188,13 +1158,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5C2E721322C6B3E7E0A6AD5D358A89D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EDCE32A29BF0D582E5C9B2F3D2BCDADD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1220,15 +1183,6 @@
 				1A7B46C7E3217E400CC573C6D92F9693 /* Expecta+Snapshots-dummy.m in Sources */,
 				16F74C2473CB0A727500E61780E107FA /* ExpectaObject+FBSnapshotTest.m in Sources */,
 				8479152A46904EEB3F1E1F7BB135A14F /* EXPMatchers+FBSnapshotTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		832312AF6915ABE653F472CFE390A0D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C35058EB98695B8A6C8C0D380F6A825 /* HypersMobileAnalyticsSDK-dummy.m in Sources */,
-				95419BCD9B30337511C3EAD444260B6B /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1471,9 +1425,23 @@
 			};
 			name = Debug;
 		};
+		29AC6DBE1FFA8CE8A6E419ED6167E53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4611E142D4461B101140D7C2AE53206A /* HypersMobileAnalyticsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		355D08CFC28528D4B4B6F5F23FC82CDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89A675474CA5A7054F59BC65B4743815 /* Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 966B01FF16741CF75CEACA2C2574F0DE /* Pods-HypersMobileAnalyticsSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1569,38 +1537,6 @@
 			};
 			name = Release;
 		};
-		465D08D685641C66262749176250C8E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1108372E97659BFD5B06D2EB5F60D5F6 /* HypersMobileAnalyticsSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HypersMobileAnalyticsSDK/HypersMobileAnalyticsSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HypersMobileAnalyticsSDK/HypersMobileAnalyticsSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HypersMobileAnalyticsSDK/HypersMobileAnalyticsSDK.modulemap";
-				PRODUCT_MODULE_NAME = HypersMobileAnalyticsSDK;
-				PRODUCT_NAME = HypersMobileAnalyticsSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1663,7 +1599,7 @@
 		};
 		572950649C0404CCB026A716EB26FA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47C83CB9BF3233B9A2857738342197F5 /* Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 182F5C9F5A5929812A81785C2BEA729E /* Pods-HypersMobileAnalyticsSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1791,7 +1727,7 @@
 		};
 		946087CE088036A357B52F612EF59C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15BCED1EDB2E89364F8A58CE238A8130 /* Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 82FC919108A7350C0F47EE096ABED547 /* Pods-HypersMobileAnalyticsSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1884,40 +1820,22 @@
 			};
 			name = Debug;
 		};
-		ADDA892F240286E191E7263A32AE56DD /* Debug */ = {
+		B7CDE55173DF65ED4DDA202CE7CDE873 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57F68C105A7F50D2190D604BCE443BE7 /* HypersMobileAnalyticsSDK.debug.xcconfig */;
+			baseConfigurationReference = E667ABC42EF62D4F65BEF7CF0D5B34E6 /* HypersMobileAnalyticsSDK.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HypersMobileAnalyticsSDK/HypersMobileAnalyticsSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HypersMobileAnalyticsSDK/HypersMobileAnalyticsSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HypersMobileAnalyticsSDK/HypersMobileAnalyticsSDK.modulemap";
-				PRODUCT_MODULE_NAME = HypersMobileAnalyticsSDK;
-				PRODUCT_NAME = HypersMobileAnalyticsSDK;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 		DB6D70E37D4E4D792076C5F2EC50FF87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C514A40C6C8B677381F3915B89F8C9D4 /* Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig */;
+			baseConfigurationReference = AC31859BDE7901EA6A8760015FE9D8E6 /* Pods-HypersMobileAnalyticsSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1952,6 +1870,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		06E898CA3B32A140A650AAE48E34E3EE /* Build configuration list for PBXAggregateTarget "HypersMobileAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CDE55173DF65ED4DDA202CE7CDE873 /* Debug */,
+				29AC6DBE1FFA8CE8A6E419ED6167E53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0CE438F0B0617C5C0D5FC0F7D40DCF1A /* Build configuration list for PBXNativeTarget "Pods-HypersMobileAnalyticsSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1966,15 +1893,6 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4848DF47681010BB55B78BC2E5680A65 /* Build configuration list for PBXNativeTarget "HypersMobileAnalyticsSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADDA892F240286E191E7263A32AE56DD /* Debug */,
-				465D08D685641C66262749176250C8E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

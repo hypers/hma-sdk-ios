@@ -208,7 +208,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				146C95C9CC85FD620BAEEE46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,24 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		146C95C9CC85FD620BAEEE46 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HypersMobileAnalyticsSDK_Example/Pods-HypersMobileAnalyticsSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HypersMobileAnalyticsSDK/HypersMobileAnalyticsSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HypersMobileAnalyticsSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HypersMobileAnalyticsSDK_Example/Pods-HypersMobileAnalyticsSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3A02FD2DF5E731E6B615EA4D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
