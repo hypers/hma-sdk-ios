@@ -1,4 +1,4 @@
-//当前SDK版本号1.2.20，2020年11月30日更新
+//当前SDK版本号1.2.30，2020年11月30日更新
 #ifndef HMTAgentSDK_h
 #define HMTAgentSDK_h
 
