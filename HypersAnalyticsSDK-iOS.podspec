@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "HypersAnalyticsSDK-iOS"
-s.version      = "1.2.20"
+s.version      = "1.2.30"
 s.summary      = "A Moblie Analytics SDK"
 s.homepage     = "https://www.hypers.com/"
 s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
