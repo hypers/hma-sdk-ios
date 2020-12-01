@@ -17,7 +17,7 @@ HypersMobileAnalyticsSDK is available through [CocoaPods](https://cocoapods.org)
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'HypersMobileAnalyticsSDK'
+pod 'HypersAnalyticsSDK-iOS'
 ```
 
 ## Author
