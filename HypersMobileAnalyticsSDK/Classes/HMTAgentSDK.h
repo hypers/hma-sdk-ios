@@ -1,4 +1,4 @@
-//当前SDK版本号1.2.20，2020年04月23日更新
+//当前SDK版本号1.2.30，2020年11月30日更新
 #ifndef HMTAgentSDK_h
 #define HMTAgentSDK_h
 
@@ -7,12 +7,13 @@
 
 typedef enum {
     HMT_BATCH    = 0,  //启动时发送
-    HMT_REALTIME = 1   //实时发送
+    HMT_REALTIME = 1,   //实时发送
+    HMT_INTERVAL = 2,   //间隔发送
 } HMTReportPolicy;     //发送模式
 
 typedef enum {
-    HMT_CacheTemporary = 0,  //属性临时性存储
-    HMT_CachePermanent = 1   //属性持久性存储
+    HMT_CacheTemporary = 0,
+    HMT_CachePermanent = 1
 }HMTCacheState;
 
 //数据发送回调协议
@@ -48,26 +49,38 @@ typedef enum {
 //tracker配置
 + (void)setTrackerSign:(NSString *)trackerSign;
 
-//设置页面自动布码，默认开启
+//设置页面自动布码
 + (void)setViewHook:(BOOL)hook;
-
-//设置部分事件自动埋点采集,默认关闭，开启后可以自动抓取部分按钮事件来进行调试
-+ (void)enableActionHook:(BOOL)hook;
 
 //设置调试模式(release版本暂不处理)
 + (void)setDebug:(BOOL)debug;
 
+//设置时间间隔 默认15秒
++(void)setFlushTimeInterval:(NSInteger)timeInterval;
+
+//设置条数间隔 默认100条
++(void)setFlushSizeInterval:(NSInteger)sizeInterval;
+
 //处理转跳URL
 + (BOOL)routeHLink:(NSURL *)url;
+
+////是否开启全埋点(beta功能)
+//+ (void)setAutoAllHook:(BOOL)hook;
 
 //设置页面Hook例外(传入要限制hook的viewController的名称)
 + (void)setViewHookException:(NSArray<NSString *> *)exceptionArray;
 
+//开启debug界面
++ (void)openDebugView;
+
 //设置是否开启错误抓取,默认关闭
 + (void)setCrashReportEnabled:(BOOL)vaule;
 
-//开启debug界面
-+ (void)openDebugView;
+//开启灵动布码
++ (void)setAutoTrackEnable:(BOOL)value;
+
+//开启热力图
++ (void)setThermodynamicEnable:(BOOL)value;
 
 //设置地理位置收集
 //此方法为SDK自动获取地理位置信息，会在主线程调用对应的location方法
@@ -75,19 +88,19 @@ typedef enum {
 //此方法为用户手动获取地理位置信息传给SDK
 + (void)setLocation:(BOOL)isOpen latitude:(double)lat longitude:(double)lon;
 
-//绑定推送ID
-+ (void)bindPushKey:(NSString *)pushKey pushId:(NSString *)pushId;
-
 //绑定Muid(该字段目前仅做收集，不参与计算)
 + (BOOL)bindMuId:(NSString *)muid;
 
 //绑定自定义字段
 + (BOOL)bindUserDefineProperty:(NSDictionary *)porperty cacheState:(HMTCacheState)state;
-//删除自定义字段，若想要删除全部自定义字段，传入字符串DELETE-ALL即可
+
 + (BOOL)removeUserDefinePropertyWithKey:(NSString *)key cacheState:(HMTCacheState)state;
 
 //绑定账户ID(该字段会参与账号级别的指标计算)
 + (BOOL)bindAccountId:(NSString *)accountid;
+
+//获取设备id
++(NSString *)getDeviceID;
 
 //获取分享ID
 + (NSString *)getShareID;
