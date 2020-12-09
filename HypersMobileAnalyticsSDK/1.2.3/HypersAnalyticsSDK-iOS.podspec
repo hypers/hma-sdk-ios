@@ -7,7 +7,7 @@ s.homepage     = "https://www.hypers.com/"
 s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
 s.author           = { 'HMT' => 'hypers' }
 s.platform     = :ios, "8.0"
-s.source           = { :git => 'https://github.com/moluwentu/hma-sdk-ios.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/hypers/hma-sdk-ios.git', :tag => s.version.to_s }
 s.source_files = 'HypersMobileAnalyticsSDK/Classes/**/*'
 s.framework    = "UIKit"
 s.requires_arc = true
