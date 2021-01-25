@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HypersAnalyticsSDK-iOS'
-  s.version          = '1.2.3'
+  s.version          = '1.3.0'
   s.summary          = 'A Moblie Analytics SDK'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HMT' => 'hypers' }
-  s.source           = { :git => 'https://github.com/Stone-1995/hma-sdk-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hypers/hma-sdk-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

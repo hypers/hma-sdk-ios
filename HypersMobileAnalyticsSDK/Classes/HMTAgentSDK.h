@@ -1,4 +1,4 @@
-//当前SDK版本号1.2.30，2020年11月30日更新
+//当前SDK版本号1.3.0，2021年1月25日更新
 #ifndef HMTAgentSDK_h
 #define HMTAgentSDK_h
 
@@ -148,6 +148,10 @@ typedef enum {
 //WKWebView监听，需要在界面注销时调用removeHmtWKWebAction方法
 + (BOOL)setActionOnWKWebView:(id)webView;
 + (BOOL)removeHmtWKWebAction:(id)webView;
+
++(void)startLingDong;
+
++(void)startRetu;
 
 @end
 
